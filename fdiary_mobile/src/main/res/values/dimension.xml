@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="cellHeight">50dp</dimen>
+    <dimen name="tableViewTextSize">12sp</dimen>
+    <dimen name="diaryPositionTextSize">12sp</dimen>
+</resources>

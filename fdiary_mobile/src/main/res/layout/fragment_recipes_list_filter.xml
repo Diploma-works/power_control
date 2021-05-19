@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recipe_list_filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding">
+
+    <TextView
+        android:id="@+id/recipe_list_filter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_list_filter_title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timePreparedLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Время приготовления" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_time_15m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15 мин" />
+
+        <RadioButton
+            android:id="@+id/radio_time_30m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="30 мин" />
+
+        <RadioButton
+            android:id="@+id/radio_time_1h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1 час" />
+
+        <RadioButton
+            android:id="@+id/radio_time_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Сброс" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ratingLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рейтинг" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_rating_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">2" />
+
+        <RadioButton
+            android:id="@+id/radio_rating_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">3" />
+
+        <RadioButton
+            android:id="@+id/radio_rating_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">4" />
+
+        <RadioButton
+            android:id="@+id/radio_rating_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Сброс" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/caloriesLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Калорийность (ккал)" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/slider_multiple_thumbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/recipe_list_filter_slider_desc"
+        android:stepSize="100.0"
+        android:theme="@style/AppTheme"
+        android:valueFrom="0"
+        android:valueTo="900"
+        app:values="@array/initial_calories_slider_values" />
+
+    <TextView
+        android:id="@+id/cuisineLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кухня" />
+
+    <Spinner
+        android:id="@+id/spinner_cuisine_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Категория" />
+
+    <Spinner
+        android:id="@+id/spinner_category_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/apply_filter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_list_filter_submit_btn" />
+</LinearLayout>

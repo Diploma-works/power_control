@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diary_position"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/diary_position_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/diaryPositionTextSize" />
+
+        <TextView
+            android:id="@+id/grams_amount"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="@dimen/diaryPositionTextSize" />
+
+        <TextView
+            android:id="@+id/calories"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="@dimen/diaryPositionTextSize" />
+
+        <TextView
+            android:id="@+id/prot_col"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="@dimen/diaryPositionTextSize" />
+
+        <TextView
+            android:id="@+id/fat_col"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="@dimen/diaryPositionTextSize" />
+
+        <TextView
+            android:id="@+id/carb_col"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="@dimen/diaryPositionTextSize" />
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/delete_diary_position_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:title="Удалить"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/edit_diary_position_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit"
+        android:title="Изменить"></ImageButton>
+
+</LinearLayout>
