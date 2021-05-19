@@ -1,6 +1,0 @@
-[submodule "fdiary_backend"]
-	path = fdiary_backend
-	url = https://github.com/guybydefault/fdiary-backend.git
-[submodule "fdiary_mobile"]
-	path = fdiary_mobile
-	url = https://github.com/guybydefault/fdiary-mobile.git
