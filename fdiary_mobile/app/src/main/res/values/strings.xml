@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Дневник питания</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="products">Продукты</string>
+    <string name="recipes">Рецепты</string>
+    <string name="profile">Профиль</string>
+    <string name="profile_header">Профиль</string>
+    <string name="email">Email</string>
+    <string name="borsh_intro">Классический рецепт по-современному. Этот борщ не оставит никого равнодушным. Приготовьте борщ по нашему рецепту и убедитесь в этом сами!</string>
+    <string name="searchTextView">Найти блюдо</string>
+    <string name="filterBtn">Фильтр</string>
+    <string name="recipesListPageName">Рецепты</string>
+    <string name="recipe_list_filter_slider_desc">Калорийность</string>
+    <string name="recipe_list_filter_title">Фильтр</string>
+    <string name="recipe_list_filter_submit_btn">Применить</string>
+
+    <string name="error_too_short">Слишком короткий</string>
+    <string name="error_format_invalid">Неправильный формат</string>
+    <string name="title_activity_login">Вход в систему</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Вход или регистрация</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="welcome">"Добро пожаловать !"</string>
+    <string name="invalid_username">Неправильное имя пользователя</string>
+    <string name="invalid_password">Пароль должен состоять более чем из 5 символов</string>
+    <string name="login_failed">"Ошибка при аутентификации"</string>
+
+    <string name="logoutSuccess">Вы успешно вышли из системы!</string>
+    <string name="logoutBtnText">Выход</string>
+    <string name="productSearchHeader">Продукты</string>
+    <string name="productAmountHint">в граммах</string>
+    <string name="productAmount">Количество</string>
+</resources>
