@@ -18,6 +18,12 @@ Food diary for tracking calories, protein, fat, carbs, vitamins, minerals and ot
 
 6) Start mobile app using AVD or using physical mobile device connected to your PC (web service should be accessible in the same network as your mobile phone or AVD)
 
+## Demo
+
+![Demo1](demo1.gif)
+
+![Demo1](demo2.gif)
+
 ## DBMS
 
 DBMS: PostgreSQL 9.6.1 (installed as docker container)
